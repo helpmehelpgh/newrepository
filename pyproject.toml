@@ -1,0 +1,19 @@
+[project]
+name = "helpmehelp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "helpmehelpgh", email = "helpmehelp44@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.maturin]
+module-name = "helpmehelp._core"
+python-packages = ["helpmehelp"]
+python-source = "src"
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
